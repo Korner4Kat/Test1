@@ -1,0 +1,22 @@
+# this is a comment
+ Have a bank
+
+class myBank ():
+    def __init__(self, cid, name, balance):
+        self.cid = cid
+        self.name = name
+        self.balance = balance
+
+    def makeDeposit(self, amount):
+            self.balance += amount
+            balance = (self.name,  "With CID",  self.cid, "balance is :: ", self.balance)
+            print (balance)
+            print ()
+    def withdrawl(self, amount):
+            self.balance -= amount
+            balance = (self.name,  "With CID",  self.cid, "balance is :: ", self.balance)
+            print (balance)
+    def getBalance(self,):
+            balance = (self.name,  "With CID",  self.cid, "balance is :: ", self.balance)
+            return self.balance
+            print (balance)
