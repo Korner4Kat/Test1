@@ -1,5 +1,4 @@
 # this is a comment
- Have a bank
 
 class myBank ():
     def __init__(self, cid, name, balance):
